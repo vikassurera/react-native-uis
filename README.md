@@ -21,5 +21,5 @@ Reference
 ![Deisgn 2](/designs/design2/app_design_login_signup.png)
 
 Code Implementation
-![Deisgn 2 - Getting Started](/designs/design2/design2_getting_started.png)
-![Deisgn 2 - Login](/designs/design2/design2_login.png)
+
+<img src="/designs/design2/design2_getting_started.png" width="30%">&nbsp;&nbsp;&nbsp;&nbsp;<img src="/designs/design2/design2_login.png" width="30%">
