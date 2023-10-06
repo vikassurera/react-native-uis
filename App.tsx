@@ -9,7 +9,7 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={'Design2GetStarted'}>
+      <Stack.Navigator initialRouteName={'Verification'}>
           <Stack.Screen name="Design2GetStarted" options={{headerShown: false}} component={Design2GetStartedScreen} />
           <Stack.Screen name={'Design2Login'} options={{headerShown: false, }} component={Design2LoginScreen} />
           <Stack.Screen name="Verification" options={{headerShown: false}} component={VerificationCodeScreen} />
