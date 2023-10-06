@@ -37,8 +37,8 @@ export const Design3Screen = () => {
                             <View style={styles.sizeItem}>
                                 <Text style={styles.sizeText}>XXS</Text>
                             </View>
-                            <View style={styles.sizeItem}>
-                                <Text style={styles.sizeText}>M</Text>
+                            <View style={[styles.sizeItem, styles.selectedSize]}>
+                                <Text style={[styles.sizeText, styles.selectedSizeText]}>M</Text>
                             </View>
                             <View style={styles.sizeItem}>
                                 <Text style={styles.sizeText}>L</Text>
@@ -145,6 +145,12 @@ const styles = StyleSheet.create({
         fontWeight: '600',
         color: '#807f7f',
     },
+    selectedSize:{
+      backgroundColor: Colors.primary
+    },
+    selectedSizeText:{
+        color: '#fff'
+    },
     bodyText: {
         marginTop: 20,
         fontSize: 16,
@@ -163,6 +169,6 @@ const styles = StyleSheet.create({
         textTransform: 'uppercase',
         color: 'white',
         fontSize: 20,
-        fontWeight: '900'
+        fontWeight: '700'
     }
 });

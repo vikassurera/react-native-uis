@@ -25,9 +25,6 @@ Implemented UI
 <img src="/designs/design2/design2_getting_started.png" width="30%">&nbsp;&nbsp;&nbsp;&nbsp;<img src="/designs/design2/design2_login.png" width="30%">
 
 
-
-![Deisgn 1](/designs/app_design_1.png)
-
 ### Design 3
 source: https://dribbble.com/shots/22740475-E-Commerce-App
 
